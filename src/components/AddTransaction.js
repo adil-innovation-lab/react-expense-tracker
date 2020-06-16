@@ -7,7 +7,7 @@ import { GlobalContext } from '../context/GlobalState';
 export const AddTransaction = () => {
 
     const [description, setDescription] = useState('');
-    const [transactionAmount, setTransactionAmount] = useState(0);
+    const [transactionAmount, setTransactionAmount] = useState('');
 
     const { addTransaction } = useContext(GlobalContext);
 
