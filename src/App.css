@@ -139,9 +139,22 @@ input[type='number'] {
   border-right: 5px solid #29834f;
 }
 
+.list li.plus:hover {
+  border-right: 5px solid #29834f;
+  background-color: #29834f;
+  color: #f7f7f7
+}
+
 .list li.minus {
   border-right: 5px solid #7a261d;
 }
+
+.list li.minus:hover {
+  border-right: 5px solid #7a261d;
+  background-color: #7a261d;
+  color: #f7f7f7
+}
+
 
 .delete-btn {
   cursor: pointer;
